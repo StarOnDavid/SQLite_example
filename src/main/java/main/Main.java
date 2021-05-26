@@ -72,32 +72,9 @@ public class Main {
 //		try {
 //			dbStatement.deleteUser(2);
 //		} catch (SQLException e) {
-//			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
-//		try {
-//			users1 = dbStatement.getAllUsers();
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//		}
-//		users1.forEach(System.out::println);
-//		System.out.println();
-		
-		// insert one 'User' into table
-		try {
-			dbStatement.insertUser(new User("Nero", "Black", "nero@ship.de", "Matrix"));
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		
-		try {
-			users1 = dbStatement.getAllUsers();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		users1.forEach(System.out::println);
-		System.out.println();
-		
+
 		
 	}
 
